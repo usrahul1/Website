@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;    
     color: white;
-    background-image:url(background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +19,7 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 13%;
+    width: 13%;
 }
 
 .content{
@@ -153,7 +153,7 @@
 }
 .contact{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 
 .flex{
@@ -239,8 +239,18 @@ textarea:focus~label,textarea:valid~label{
     margin-right: 5%;
 }
 
-@media (max-width: 1020px){
+@media (max-width: 1020px) and (min-width: 748px){
 
+    .logo{
+        width: 23%;
+    }
+    .hello{
+        width: 20%;
+    }
+
+    .hi{
+        width: 18%;
+    }
     .skedu{
         display: block;
     }
@@ -328,5 +338,106 @@ textarea:focus~label,textarea:valid~label{
     .copyright{
         position: relative;
         top: -2%;
+    }
+}
+
+@media (max-width: 748px){
+
+    .hello{
+        margin-top: 10%;
+        width: 50%;
+    }
+
+    .hi{
+        width: 25%;
+    }
+
+    .skedu{
+        display: block;
+    }
+
+    .info, .infot, .course{
+        margin-left: 0px;
+    }
+
+    .skills, .onlinecert,.head{
+        margin-left: 8%;
+        margin-top: 6%;
+    }
+
+    .py, .cl{
+        margin-left: 0px;
+        margin-top: 1.5%;
+    }
+
+    .flex{
+        display: block;
+    }
+    
+    .everything{
+        margin-top: 6%;
+    }
+
+    .work{
+        margin-top: 6%;
+    }
+
+    .onlinecert{
+        margin-bottom: 5%;
+    }
+
+    .everything p {
+        white-space: normal; 
+    }
+
+    .conthead{
+        margin-top: 20%;
+    }
+
+    .continfo{
+        margin-top: 3%;
+    }
+
+    form {
+        width: 70%;
+        margin-top: 4%; 
+        margin-left: 15%;
+    }
+    
+    .inputgroup {
+        margin-bottom: 6.8%; 
+    }
+    
+      textarea, input {
+        font-size: 12px; 
+      }
+    
+      input:focus~label,
+      input:valid~label,
+      textarea:focus~label,
+      textarea:valid~label {
+        font-size: 8px;
+      }
+    
+      .row {
+        display: block;
+    }
+    
+      .row .inputgroup {
+        flex-basis: 100%;
+        margin-bottom: 6.8%;
+      }
+    
+      .inputgroup .phonenum {
+        margin-left: 0; 
+      }
+
+      .links{
+        margin-left: 15%;
+      }
+
+    .copyright{
+        margin-top: 10%;
+        text-align: center;
     }
 }
