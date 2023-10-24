@@ -409,9 +409,12 @@ textarea:focus~label,textarea:valid~label{
     .continfo{
         margin-top: 3%;
     }
-
+    
+    .links{
+        margin-top: 6%;
+    }
     form {
-        width: 70%;
+        width: 75%;
         margin-top: 4%; 
         margin-left: 15%;
     }
