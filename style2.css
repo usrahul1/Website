@@ -348,6 +348,10 @@ textarea:focus~label,textarea:valid~label{
         display: none;
     }
 
+    .links{
+        margin-top: 6%;
+    }
+
     .logo{
         width: 50%;
         top: 0;
@@ -410,10 +414,7 @@ textarea:focus~label,textarea:valid~label{
     .continfo{
         margin-top: 3%;
     }
-    
-    .links{
-        margin-top: 6%;
-    }
+
     form {
         width: 75%;
         margin-top: 4%; 
