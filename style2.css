@@ -6,11 +6,11 @@
     background-image:url(background.jpg);
     background-size: cover;
     background-position: center;
+    word-wrap: break-word;
 }
 
 .banner{
     width: 100%;
-    height: 100vh;
 }
 
 .hello{
@@ -89,7 +89,6 @@
 
 .AboutMe{
     width: 100%;
-    height: 100vh;
 }
 
 .heading{
@@ -155,7 +154,7 @@
 }
 .contact{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .flex{
