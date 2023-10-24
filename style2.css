@@ -237,6 +237,7 @@ textarea:focus~label,textarea:valid~label{
     text-align: right;
     margin-top: 3%;
     margin-right: 5%;
+    padding-bottom: 2%;
 }
 
 @media (max-width: 1020px) and (min-width: 748px){
