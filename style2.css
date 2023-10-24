@@ -240,3 +240,95 @@ textarea:focus~label,textarea:valid~label{
     margin-top: 3%;
     margin-right: 5%;
 }
+
+@media (max-width: 1020px){
+
+    .skedu{
+        display: block;
+    }
+
+    .info, .infot, .course{
+        margin-left: 0px;
+    }
+
+    .skills, .onlinecert,.head{
+        margin-left: 8%;
+        margin-top: 6%;
+    }
+
+    .py, .cl{
+        margin-left: 0px;
+        margin-top: 1.5%;
+    }
+
+    .flex{
+        display: block;
+    }
+    
+    .everything{
+        margin-top: 6%;
+    }
+
+    .work{
+        margin-top: 6%;
+    }
+
+    .onlinecert{
+        margin-bottom: 5%;
+    }
+
+    .everything p {
+        white-space: normal; 
+    }
+
+    .conthead{
+        margin-top: 20%;
+    }
+
+    .continfo{
+        margin-top: 3%;
+    }
+
+    form {
+        width: 70%;
+        margin-top: 4%; 
+        margin-left: 15%;
+    }
+    
+    .inputgroup {
+        margin-bottom: 6.8%; 
+    }
+    
+      textarea, input {
+        font-size: 12px; 
+      }
+    
+      input:focus~label,
+      input:valid~label,
+      textarea:focus~label,
+      textarea:valid~label {
+        font-size: 8px;
+      }
+    
+      .row {
+        display: block;
+    }
+    
+      .row .inputgroup {
+        flex-basis: 100%;
+        margin-bottom: 6.8%;
+      }
+    
+      .inputgroup .phonenum {
+        margin-left: 0; 
+      }
+
+      .links{
+        margin-left: 15%;
+      }
+
+    .copyright{
+        position: relative;
+        top: -2%;
+    }
+}
