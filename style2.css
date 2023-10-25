@@ -233,9 +233,15 @@ textarea:focus~label,textarea:valid~label{
 
 .copyright{
     text-align: right;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-right: 5%;
     padding-bottom: 2%;
+}
+
+.socia{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 130%;
 }
 
 @media (max-width: 1020px) and (min-width: 748px){
@@ -336,8 +342,9 @@ textarea:focus~label,textarea:valid~label{
 
     .copyright{
         position: relative;
-        top: -2%;
+        top: 1%;
     }
+
 }
 
 @media (max-width: 748px){
@@ -452,8 +459,13 @@ textarea:focus~label,textarea:valid~label{
       }
 
     .copyright{
-        margin-top: 10%;
         text-align: center;
         padding-bottom: 4%;
+        margin-left: 9%;
+    }
+
+    .socia{
+        margin-top: 5%;
+        margin-bottom: 3%;
     }
 }
