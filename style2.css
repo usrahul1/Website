@@ -388,7 +388,7 @@ textarea:focus~label,textarea:valid~label{
     }
 
     .skills, .onlinecert,.head{
-        margin-left: 8%;
+        margin-left: 6.8%;
         margin-top: 6%;
     }
 
@@ -470,6 +470,7 @@ textarea:focus~label,textarea:valid~label{
     }
 
     .socia{
+        text-align: center;
         margin-top: 5%;
         margin-bottom: 3%;
     }
